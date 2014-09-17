@@ -8,4 +8,4 @@ python -m doctest -v my_program.py
 
 echo
 echo "Run unitests"
-python -m unittest discover
+python -m unittest discover -v
