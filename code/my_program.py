@@ -19,5 +19,7 @@ def average(list):
 
     return retval
 
+
 if __name__ == '__main__':
-    print(average(sys.argv[1:]))
+    list = [ int(s) for s in sys.argv[1:] ]
+    print(average(list))
