@@ -8,6 +8,8 @@ def average(list):
     3.0
     '''
 
+    if not list:
+        return None
     retval = 0
     for i in list:
         retval += i
