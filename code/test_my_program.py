@@ -2,9 +2,13 @@
 
 import unittest
 import os
-from subprocess import getoutput
-
 from my_program import average
+
+try:
+    from subprocess import getoutput
+except ImportError:
+    from commands import getoutput
+
 
 CODE_PATH = os.path.dirname(__file__)
 
