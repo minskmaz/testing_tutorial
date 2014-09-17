@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 from __future__ import division
 
+import sys
+
 def average(list):
     '''Return average of a list of numbers.
 
@@ -16,3 +18,6 @@ def average(list):
     retval /= len(list)
 
     return retval
+
+if __name__ == '__main__':
+    print(average(sys.argv[1:]))
