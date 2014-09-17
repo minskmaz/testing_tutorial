@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from __future__ import division
 
 def average(list):
     '''Return average of a list of numbers.
